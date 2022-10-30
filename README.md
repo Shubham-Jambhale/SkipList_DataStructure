@@ -32,11 +32,17 @@ are in Lower case. For comparing the strings you can use inbuilt python function
 
 lexicographical order : aa->aaa->ab->az->cd->df-> ja-> jb-> . . . -> z->za..
 Evaluation Usage will be like this:
+
 lu_sk_lists = LookUpSkipList([“iub”,”usa”,”there”,”sort”,”god”],0.6)
+
 lu_sk_lists.print()
+
 lu_sk_lists.insert(“word”)
+
 lu_sk_lists.delete(“there”)
+
 lu_sk_lists.lookup_search(“iub”)
+
 lu_sk_lists.lookup_search(“present”)
   
   
